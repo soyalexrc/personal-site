@@ -1,0 +1,20 @@
+{
+    "products": {
+        "cart": "Agregar al carrito"
+    },
+    "home": {
+        "hero": {
+            "intro": "Hola!, me llamo",
+            "name": "Alex Rodriguez",
+            "compliment": "Construyo cosas para internet.",
+            "description": "Soy un desarrollador javascript full stack apasionado por la web, experimentando con multiplataforma. Me especializo en crear (y ocasionalmente diseñar) sitios web, aplicaciones y todo lo demás excepcionales.",
+            "cta": "Contactar"
+        }
+    },
+    "menu": {
+        "about": "Acerca de",
+        "experience": "Experiencia",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    }
+}
