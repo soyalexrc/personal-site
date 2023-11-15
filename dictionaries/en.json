@@ -1,0 +1,20 @@
+{
+  "products": {
+    "cart": "Add to cart"
+  },
+  "home": {
+    "hero": {
+      "intro": "Hi!, my name is",
+      "name": "Alex Rodriguez",
+      "compliment": "I build things for the web.",
+      "description": "I am a full stack javascript developer passionate for the web, experimenting with multiplatform. I specialize in building (and occasionally designing) exceptional websites, applications, and everything in between.",
+      "cta": "Get in touch"
+    }
+  },
+  "menu": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  }
+}
