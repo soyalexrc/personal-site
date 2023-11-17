@@ -2,6 +2,7 @@ import type {Metadata} from 'next'
 import {Footer} from "@/components/layout/Footer";
 import {getDictionary} from "@/utils/dictionaries";
 import {Navbar} from "@/components/layout/Navbar";
+import {LeftShorCut} from "@/components/layout/LeftShorCut";
 
 
 export const metadata: Metadata = {
@@ -20,24 +21,10 @@ export default async function Layout({
     const t = await getDictionary(params.lang);
     return (
         <div className='relative'>
-            <div className=' fixed bottom-10 left-10 '>
-                <p>p</p>
-                <p>p</p>
-                <p>p</p>
-                <p>p</p>
-                <p>p</p>
-                <p>p</p>
-                <p>p</p>
-                <p>p</p>
-                <p>p</p>
-                <p>p</p>
-            </div>
+            <LeftShorCut />
             <Navbar dictionary={t} lang={params.lang} />
             {children}
             <Footer/>
-            <div className=' fixed bottom-[120px] right-[-40px] vertical-text'>
-                <p>alexcarvajal2404@gmail.com</p>
-            </div>
         </div>
     )
 }

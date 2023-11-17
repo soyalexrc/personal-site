@@ -1,5 +1,7 @@
-'use client';
 import {Navbar as NavbarComponent, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
+import Image from "next/image";
+import LangEnIcon from '../../../public/lan-en.png';
+import LangEsIcon from '../../../public/lan-es.png';
 
 interface Props {
     dictionary: any;
@@ -12,29 +14,12 @@ export const Navbar = ({dictionary, lang}: Props) => {
 
     return (
         <NavbarComponent shouldHideOnScroll className='navbar-container'>
-            <NavbarBrand>
-                <p className="font-bold text-inherit">ACME</p>
-            </NavbarBrand>
-            <NavbarContent className="hidden sm:flex gap-4" justify="center">
+            <NavbarContent justify="end" >
                 <NavbarItem>
-                    <Link color="foreground" href="#">
-                        {dictionary.menu.about}
+                    <Link href={`/${cl}`} className='mt-2'>
+                        {lang === 'es' && <Image src={LangEsIcon} width={25} height={25} alt='Cambia el idioma a ingles' />}
+                        {lang === 'en' && <Image src={LangEnIcon} width={25} height={25} alt='Change the language to Spanish' />}
                     </Link>
-                </NavbarItem>
-                <NavbarItem isActive>
-                    <Link href="#" aria-current="page">
-                        {dictionary.menu.experience}
-                    </Link>
-                </NavbarItem>
-                <NavbarItem>
-                    <Link color="foreground" href="#">
-                        {dictionary.menu.projects}
-                    </Link>
-                </NavbarItem>
-            </NavbarContent>
-            <NavbarContent justify="end">
-                <NavbarItem>
-                    <Link href={`/${cl}`}>{lang}</Link>
                 </NavbarItem>
                 <NavbarItem>
                     <Button as={Link} color="primary" href="#" variant="flat">
