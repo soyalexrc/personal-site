@@ -1,6 +1,6 @@
 import {getDictionary} from "@/utils/dictionaries";
 import {FaBeer} from "react-icons/fa";
-import {Background, ContactForm, Hero, Skills} from "@/components/home";
+import {Background, ContactForm, Hero, SkillsAndExperience} from "@/components/home";
 
 async function Page({params}: { params: { lang: string } }) {
 
@@ -24,12 +24,13 @@ async function Page({params}: { params: { lang: string } }) {
             <Background />
 
             {/*    Skills*/}
-            <Skills />
-
-            {/*    Experience*/}
-            <div className='min-h-[100vh] flex items-center justify-center'>
-                <h2>Experience</h2>
-            </div>
+            <SkillsAndExperience
+                languages={t.home.skillsAndExperience.languages}
+                title={t.home.skillsAndExperience.title}
+                libraries={t.home.skillsAndExperience.libraries}
+                logoAlt={t.home.skillsAndExperience.logoAlt}
+                tools={t.home.skillsAndExperience.tools}
+            />
 
             {/*    Projects*/}
             <div className='min-h-[100vh] flex items-center justify-center'>
@@ -37,7 +38,12 @@ async function Page({params}: { params: { lang: string } }) {
             </div>
 
             {/*    Contact form*/}
-            <ContactForm />
+            <ContactForm
+                title={t.home.contact.title}
+                name={t.home.contact.name}
+                additionalDetails={t.home.contact.additionalDetails}
+                email={t.home.contact.email}
+            />
 
         </div>
     );

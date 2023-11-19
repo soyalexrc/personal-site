@@ -12,7 +12,7 @@ interface Props {
 
 export function Hero({greeting, cta, description, name, compliment}: Props) {
     return (
-        <div className='flex items-center justify-between'>
+        <section className='min-h-[75vh] flex items-center justify-between'>
             <div>
                 <p className='leading-normal tracking-widest'>{greeting}</p>
                 <h1 className="text-6xl font-bold tracking-tight text-slate-200 sm:text-7xl"><a
@@ -23,7 +23,8 @@ export function Hero({greeting, cta, description, name, compliment}: Props) {
                     {cta}
                 </Button>
             </div>
+            {/*<div></div>*/}
             <Image className='rounded-lg' src={profilePhoto} width={350} height={200} alt='Prodfile photo'/>
-        </div>
+        </section>
     )
 }

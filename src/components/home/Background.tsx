@@ -1,6 +1,6 @@
 export function Background() {
     return (
-        <div className=' mt-32'>
+        <section className='flex flex-col justify-center min-h-[75vh]'>
             <h2 className="mt-3 text-center mb-5 text-2xl font-medium tracking-tight text-slate-200 sm:text-4xl">Background</h2>
 
             <div className='grid grid-cols-2'>
@@ -27,6 +27,6 @@ export function Background() {
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

@@ -1,4 +1,4 @@
 export * from './Hero';
 export * from './Background';
-export * from './Skills';
+export * from './SkillsAndExperience';
 export * from './ContactForm';

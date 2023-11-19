@@ -4,11 +4,24 @@
     },
     "home": {
         "hero": {
-            "intro": "Hola!, me llamo",
+            "intro": "\uD83D\uDC4B Hola!, me llamo",
             "name": "Alex Rodriguez",
             "compliment": "Construyo cosas para internet.",
-            "description": "Soy un desarrollador javascript full stack apasionado por la web, experimentando con multiplataforma. Me especializo en crear (y ocasionalmente diseñar) sitios web, aplicaciones y todo lo demás excepcionales.",
+            "description": "Soy un desarrollador javascript full stack apasionado por la web, experimentando con multiplataforma. Me especializo en crear (y ocasionalmente diseñar) sitios web, aplicaciones y relacionados. \uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBB",
             "cta": "Contactar"
+        },
+        "skillsAndExperience": {
+            "title": "Habilidades y Experiencia",
+            "languages": "Lenguajes",
+            "libraries": "Librerias / Frameworks",
+            "tools": "Herramientas / Plataformas",
+            "logoAlt": "Logo de"
+        },
+        "contact": {
+            "title": "Contacto \uD83D\uDE80",
+            "name":  "Nombre",
+            "email": "Coreo electronico",
+            "additionalDetails": "Informacion adicional"
         }
     },
     "menu": {

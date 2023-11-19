@@ -1,7 +1,7 @@
 import type {Metadata} from 'next'
 import {Footer} from "@/components/layout/Footer";
 import {getDictionary} from "@/utils/dictionaries";
-import {Navbar} from "@/components/layout/Navbar";
+import {Navbar} from "@/components/layout/navbar/Navbar";
 import {LeftShorCut} from "@/components/layout/LeftShorCut";
 
 
