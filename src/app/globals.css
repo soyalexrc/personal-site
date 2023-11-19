@@ -10,3 +10,13 @@ body {
 .vertical-text {
   transform: rotate(-90deg);
 }
+
+.navbar-container {
+  background-color: rgba(10, 25, 47, 0.85);
+  filter: none !important;
+  pointer-events: auto !important;
+  user-select: auto !important;
+  backdrop-filter: blur(10px);
+  transition: var(--transition);
+  height: var(--nav-height);
+}

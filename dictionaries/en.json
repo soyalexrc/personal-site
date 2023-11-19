@@ -4,11 +4,24 @@
   },
   "home": {
     "hero": {
-      "intro": "Hi!, my name is",
+      "intro": "\uD83D\uDC4B Hi!, my name is",
       "name": "Alex Rodriguez",
       "compliment": "I build things for the web.",
-      "description": "I am a full stack javascript developer passionate for the web, experimenting with multiplatform. I specialize in building (and occasionally designing) exceptional websites, applications, and everything in between.",
+      "description": "I am a full stack javascript developer passionate for the web, experimenting with multiplatform. I specialize in building (and occasionally designing) exceptional websites, applications, and everything in between. \uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBB",
       "cta": "Get in touch"
+    },
+    "skillsAndExperience": {
+      "title": "Skills and Experience",
+      "languages": "Languages",
+      "libraries": "Libraries / Frameworks",
+      "tools": "Tools / Platforms",
+      "logoAlt": "Logo of"
+    },
+    "contact": {
+      "title": "Let's get in touch! \uD83D\uDE80",
+      "name":  "Name",
+      "email": "Email",
+      "additionalDetails": "Additional details"
     }
   },
   "menu": {
